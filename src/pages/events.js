@@ -1,5 +1,6 @@
 import BackButton from "../components/BackButton";
 import EventCard from "../components/EventCard";
+import EventGenerator from "../components/EventGenerator";
 import events from "../data/events.json";
 
 export default function Events() {
@@ -8,6 +9,9 @@ export default function Events() {
       <BackButton href="/" />
       <h1>Eventos</h1>
 
+      <EventGenerator />
+
+      <h2>Todos os eventos</h2>
       <section className="cardList">
         {events.map((event) => (
           <EventCard
