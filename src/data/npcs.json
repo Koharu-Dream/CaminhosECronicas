@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Aldren",
+    "race": "Humano",
+    "occupation": "Mercador",
+    "location": "Waterdeep",
+    "personality": "Desconfiado, mas amigável.",
+    "notes": "Pode possuir informações sobre os Zhentarim."
+  },
+  {
+    "id": 2,
+    "name": "Brenna Pedraferro",
+    "race": "Anã",
+    "occupation": "Ferreira",
+    "location": "Neverwinter",
+    "personality": "Direta e teimosa, mas leal.",
+    "notes": "Deve um favor ao grupo desde a última visita."
+  },
+  {
+    "id": 3,
+    "name": "Lyra Folhaprata",
+    "race": "Elfa",
+    "occupation": "Guia da floresta",
+    "location": "Floresta de Ardeep",
+    "personality": "Calada e observadora.",
+    "notes": "Conhece trilhas que não aparecem em nenhum mapa."
+  },
+  {
+    "id": 4,
+    "name": "Capitão Doran",
+    "race": "Humano",
+    "occupation": "Capitão da guarda",
+    "location": "Baldur's Gate",
+    "personality": "Rígido, mas justo.",
+    "notes": "Suspeita de contrabando no porto."
+  },
+  {
+    "id": 5,
+    "name": "Pip Pésligeiros",
+    "race": "Halfling",
+    "occupation": "Estalajadeiro",
+    "location": "Estrada do Norte",
+    "personality": "Falante e gentil.",
+    "notes": "Ouve todos os boatos da região."
+  }
+]
