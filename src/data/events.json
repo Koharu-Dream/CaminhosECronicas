@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Uma carroça abandonada",
+    "category": "Descoberta",
+    "environment": "Estrada",
+    "difficulty": "Fácil",
+    "description": "O grupo encontra uma carroça abandonada às margens da estrada."
+  },
+  {
+    "id": 2,
+    "title": "Lobos na floresta",
+    "category": "Combate",
+    "environment": "Floresta",
+    "difficulty": "Média",
+    "description": "Uivos ecoam entre as árvores. Uma matilha está seguindo o grupo."
+  },
+  {
+    "id": 3,
+    "title": "Viajante ferido",
+    "category": "Social",
+    "environment": "Estrada",
+    "difficulty": "Fácil",
+    "description": "Um mercador ferido pede ajuda. Ele parece esconder algo."
+  },
+  {
+    "id": 4,
+    "title": "Acampamento abandonado",
+    "category": "Descoberta",
+    "environment": "Floresta",
+    "difficulty": "Fácil",
+    "description": "Uma fogueira ainda morna e pegadas que somem na mata."
+  },
+  {
+    "id": 5,
+    "title": "Tempestade repentina",
+    "category": "Clima",
+    "environment": "Montanha",
+    "difficulty": "Média",
+    "description": "O céu escurece e o vento força o grupo a buscar abrigo."
+  }
+]

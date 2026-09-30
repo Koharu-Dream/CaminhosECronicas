@@ -3,7 +3,7 @@
 Ferramenta web de apoio a Mestres de D&D 2014: gerador de eventos,
 NPCs e acompanhamento de campanha.
 
-**Aplicação:** (link da Vercel entra aqui)
+**Aplicação:** https://caminhos-e-cronicas.vercel.app/
 
 ## Tecnologias
 Next.js (Pages Router), React, JavaScript, CSS (Flexbox)
