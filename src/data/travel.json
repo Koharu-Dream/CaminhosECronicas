@@ -1,0 +1,15 @@
+{
+  "paces": [
+    { "name": "Lento", "kmPerDay": 29 },
+    { "name": "Normal", "kmPerDay": 38 },
+    { "name": "Rápido", "kmPerDay": 48 }
+  ],
+  "terrains": [
+    { "name": "Estrada", "multiplier": 1 },
+    { "name": "Planície", "multiplier": 1 },
+    { "name": "Floresta", "multiplier": 0.5 },
+    { "name": "Montanha", "multiplier": 0.5 },
+    { "name": "Pântano", "multiplier": 0.5 }
+  ],
+  "weathers": ["Normal", "Chuva", "Tempestade", "Neve", "Névoa", "Calor extremo"]
+}

@@ -1,0 +1,32 @@
+.timeline {
+  margin-top: 24px;
+}
+
+.title {
+  margin: 0 0 12px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  gap: 12px;
+  padding: 10px 12px;
+  border-left: 3px solid #7c5cff;
+  border-radius: 6px;
+  background: #1f1f2b;
+}
+
+.day {
+  min-width: 60px;
+  color: #b6a4ff;
+  font-weight: bold;
+  white-space: nowrap;
+}

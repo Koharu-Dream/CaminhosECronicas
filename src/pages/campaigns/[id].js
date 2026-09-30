@@ -49,6 +49,9 @@ export default function CampaignDashboard() {
 
       <h2>Ferramentas</h2>
       <div className="actions">
+        <Link href="/travel" className="button">
+          🧭 Viagem
+        </Link>
         <Link href="/events" className="button">
           🎲 Gerar evento
         </Link>

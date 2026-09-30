@@ -1,0 +1,26 @@
+.status {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 24px 0 0;
+}
+
+.bar {
+  height: 12px;
+  border-radius: 999px;
+  background: #2a2a38;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 999px;
+  background: #7c5cff;
+  transition: width 0.3s;
+}
+
+.progress {
+  margin: 0;
+  color: #c9c9d6;
+  font-size: 0.9rem;
+}
