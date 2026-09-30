@@ -38,5 +38,77 @@
     "environment": "Montanha",
     "difficulty": "Média",
     "description": "O céu escurece e o vento força o grupo a buscar abrigo."
+  },
+  {
+    "id": 6,
+    "title": "Emboscada de bandidos",
+    "category": "Combate",
+    "environment": "Estrada",
+    "difficulty": "Difícil",
+    "description": "Homens armados bloqueiam a estrada e exigem tudo o que o grupo carrega."
+  },
+  {
+    "id": 7,
+    "title": "Ponte quebrada",
+    "category": "Perigo",
+    "environment": "Montanha",
+    "difficulty": "Média",
+    "description": "A única ponte sobre o desfiladeiro está em ruínas. Há um desvio, mas é longo."
+  },
+  {
+    "id": 8,
+    "title": "Ruínas cobertas de musgo",
+    "category": "Mistério",
+    "environment": "Floresta",
+    "difficulty": "Média",
+    "description": "Pedras entalhadas com símbolos antigos surgem entre as árvores."
+  },
+  {
+    "id": 9,
+    "title": "Névoa densa no pântano",
+    "category": "Clima",
+    "environment": "Pântano",
+    "difficulty": "Média",
+    "description": "A névoa é tão espessa que o grupo mal enxerga a própria mão."
+  },
+  {
+    "id": 10,
+    "title": "Caravana de mercadores",
+    "category": "Social",
+    "environment": "Estrada",
+    "difficulty": "Fácil",
+    "description": "Uma caravana oferece trocas e notícias de cidades distantes."
+  },
+  {
+    "id": 11,
+    "title": "Sussurros na caverna",
+    "category": "Mistério",
+    "environment": "Caverna",
+    "difficulty": "Difícil",
+    "description": "Vozes vindas do fundo da caverna repetem os nomes dos aventureiros."
+  },
+  {
+    "id": 12,
+    "title": "Tesouro enterrado",
+    "category": "Tesouro",
+    "environment": "Costa",
+    "difficulty": "Média",
+    "description": "A maré baixa revela um baú meio soterrado na areia."
+  },
+  {
+    "id": 13,
+    "title": "Criatura das profundezas",
+    "category": "Combate",
+    "environment": "Pântano",
+    "difficulty": "Mortal",
+    "description": "Algo enorme se move sob a água escura, cada vez mais perto."
+  },
+  {
+    "id": 14,
+    "title": "Dragão sobrevoando",
+    "category": "Perigo",
+    "environment": "Montanha",
+    "difficulty": "Mortal",
+    "description": "Uma sombra gigantesca cobre o vale. O grupo precisa se esconder, e rápido."
   }
 ]

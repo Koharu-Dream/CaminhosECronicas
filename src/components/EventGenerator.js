@@ -1,45 +1,107 @@
 import { useState } from "react";
 import EventCard from "./EventCard";
+import FilterSelect from "./FilterSelect";
 import events from "../data/events.json";
 import styles from "./EventGenerator.module.css";
+
+const ALL = "Todos";
+
+const environments = [...new Set(events.map((event) => event.environment))];
+const categories = [...new Set(events.map((event) => event.category))];
+const difficulties = [...new Set(events.map((event) => event.difficulty))];
 
 function pickRandom(list, exclude) {
   const options = exclude
     ? list.filter((event) => event.id !== exclude.id)
     : list;
-  const index = Math.floor(Math.random() * options.length);
-  return options[index];
+  const pool = options.length > 0 ? options : list;
+  const index = Math.floor(Math.random() * pool.length);
+  return pool[index];
 }
 
 export default function EventGenerator() {
   const [current, setCurrent] = useState(null);
   const [history, setHistory] = useState([]);
+  const [environment, setEnvironment] = useState(ALL);
+  const [category, setCategory] = useState(ALL);
+  const [difficulty, setDifficulty] = useState(ALL);
+
+  const filtered = events.filter(
+    (event) =>
+      (environment === ALL || event.environment === environment) &&
+      (category === ALL || event.category === category) &&
+      (difficulty === ALL || event.difficulty === difficulty)
+  );
+
+  function clearResults() {
+    setCurrent(null);
+    setHistory([]);
+  }
 
   function handleRoll() {
+    if (filtered.length === 0) return;
     if (current) {
       setHistory([...history, current]);
     }
-    setCurrent(pickRandom(events, current));
+    setCurrent(pickRandom(filtered, current));
   }
 
   function handleReset() {
-    setCurrent(null);
-    setHistory([]);
+    clearResults();
+    setEnvironment(ALL);
+    setCategory(ALL);
+    setDifficulty(ALL);
   }
 
   return (
     <section className={styles.generator}>
       <h2 className={styles.title}>Gerador de eventos</h2>
 
+      <div className={styles.filters}>
+        <FilterSelect
+          label="Ambiente"
+          value={environment}
+          options={environments}
+          onChange={(value) => {
+            setEnvironment(value);
+            clearResults();
+          }}
+        />
+        <FilterSelect
+          label="Categoria"
+          value={category}
+          options={categories}
+          onChange={(value) => {
+            setCategory(value);
+            clearResults();
+          }}
+        />
+        <FilterSelect
+          label="Dificuldade"
+          value={difficulty}
+          options={difficulties}
+          onChange={(value) => {
+            setDifficulty(value);
+            clearResults();
+          }}
+        />
+      </div>
+
+      <p className={styles.count}>
+        {filtered.length} evento(s) compatível(is) com os filtros
+      </p>
+
       <div className={styles.actions}>
-        <button className={styles.button} onClick={handleRoll}>
+        <button
+          className={styles.button}
+          onClick={handleRoll}
+          disabled={filtered.length === 0}
+        >
           {current ? "🎲 Rolar novamente" : "🎲 Gerar evento"}
         </button>
-        {current && (
-          <button className={styles.secondary} onClick={handleReset}>
-            Limpar
-          </button>
-        )}
+        <button className={styles.secondary} onClick={handleReset}>
+          Limpar
+        </button>
       </div>
 
       {current && (

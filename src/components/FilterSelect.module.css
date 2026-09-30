@@ -1,0 +1,20 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 140px;
+}
+
+.label {
+  color: #8a8a9a;
+  font-size: 0.8rem;
+}
+
+.select {
+  padding: 8px;
+  border: 1px solid #3a3a4a;
+  border-radius: 8px;
+  background: #1f1f2b;
+  color: #f1f1f5;
+  font-size: 1rem;
+}
