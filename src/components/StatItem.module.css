@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 150px;
+  padding: 14px;
+  border: 1px solid #3a3a4a;
+  border-radius: 10px;
+  background: #1f1f2b;
+}
+
+.label {
+  color: #8a8a9a;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

@@ -9,6 +9,9 @@ export default function Home() {
         NPCs e acompanhe a campanha.
       </p>
       <div className="actions">
+  <Link href="/campaigns" className="button">
+    Selecionar campanha
+  </Link>
   <Link href="/events" className="button">
     Ver eventos
   </Link>

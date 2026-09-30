@@ -1,0 +1,18 @@
+.text {
+  margin: 0;
+}
+
+.location {
+  color: #8a8a9a;
+}
+
+.open {
+  align-self: flex-start;
+  color: #b6a4ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.open:hover {
+  text-decoration: underline;
+}

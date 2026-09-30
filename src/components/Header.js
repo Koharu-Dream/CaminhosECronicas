@@ -9,6 +9,7 @@ export default function Header() {
       </Link>
       <nav className={styles.nav}>
         <Link href="/">Início</Link>
+        <Link href="/campaigns">Campanhas</Link>
         <Link href="/events">Eventos</Link>
         <Link href="/npcs">NPCs</Link>
       </nav>
