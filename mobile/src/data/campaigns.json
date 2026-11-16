@@ -1,0 +1,35 @@
+[
+  {
+    "id": "jornada-do-norte",
+    "name": "A Jornada do Norte",
+    "description": "Um grupo cruza as terras selvagens do norte em busca de um antigo santuário.",
+    "createdAt": "01/09/2026",
+    "currentLocation": "Floresta de Ardeep",
+    "day": 12,
+    "time": "18:40",
+    "weather": "Chuva",
+    "kmRemaining": 38
+  },
+  {
+    "id": "rumo-a-waterdeep",
+    "name": "Rumo a Waterdeep",
+    "description": "Uma escolta de Neverwinter até Waterdeep, com bandidos na estrada e segredos no caminho.",
+    "createdAt": "15/09/2026",
+    "currentLocation": "Estrada do Norte",
+    "day": 3,
+    "time": "08:00",
+    "weather": "Normal",
+    "kmRemaining": 140
+  },
+  {
+    "id": "sombras-em-baldurs-gate",
+    "name": "Sombras em Baldur's Gate",
+    "description": "Intrigas no porto: contrabando, guardas corruptos e uma seita nas docas.",
+    "createdAt": "20/09/2026",
+    "currentLocation": "Baldur's Gate",
+    "day": 1,
+    "time": "20:15",
+    "weather": "Nublado",
+    "kmRemaining": 0
+  }
+]

@@ -3,7 +3,15 @@
 Ferramenta web de apoio a Mestres de D&D 2014: gerador de eventos, NPCs,
 campanhas e acompanhamento de viagem.
 
-- **Aplicação:** https://caminhos-e-cronicas.vercel.app
+> **📱 Versão mobile (complemento):** este repositório também contém, na
+> pasta [`mobile/`](./mobile), a adaptação do projeto em **React Native +
+> Expo + Supabase**, feita para a disciplina de Desenvolvimento de
+> Aplicações Mobile (Prof. Marcos Roberto de Moraes, FATEC Mogi Mirim).
+> Inclui avisos do Mestre em tempo real (material MOBILE_009). A versão web
+> original (Next.js) continua na raiz. Instruções em
+> [`mobile/README.md`](./mobile/README.md).
+
+- **Aplicação web:** https://caminhos-e-cronicas.vercel.app
 - **Repositório:** https://github.com/Koharu-Dream/CaminhosECronicas
 
 ## Funcionalidades
@@ -48,13 +56,13 @@ Acesse http://localhost:3000
 - `src/pages`: rotas da aplicação
 - `src/styles`: estilos globais
 - `docs`: briefing e planejamento do projeto
+- `mobile`: versão mobile (React Native + Expo + Supabase), com README próprio
 
-## Limitações da primeira versão
+## Limitações da versão web
 
 Os dados criados pelo usuário (NPCs e viagem) ficam apenas na memória do
-navegador e se perdem ao recarregar a página. Persistência com Supabase está
-prevista para uma próxima versão, conforme o planejamento em
-`docs/briefing.md`.
+navegador e se perdem ao recarregar a página. A persistência com Supabase
+foi implementada na versão mobile (pasta [`mobile/`](./mobile)).
 
 ## Autor
 

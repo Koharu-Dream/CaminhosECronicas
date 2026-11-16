@@ -1,0 +1,13 @@
+# Deploy da versão web no Netlify.
+# Defina EXPO_PUBLIC_SUPABASE_URL e EXPO_PUBLIC_SUPABASE_ANON_KEY em
+# Site configuration > Environment variables (opcional: sem elas roda em modo local).
+
+[build]
+  command = "npx expo export --platform web"
+  publish = "dist"
+
+# App de página única: qualquer rota volta para o index.html.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
